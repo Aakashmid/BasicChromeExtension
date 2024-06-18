@@ -25,5 +25,5 @@ def get_wiki_summary(request):
     }
 
     print('json-data to be sent: ', data)
-
+ 
     return JsonResponse(data)
